@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\qhama\\Desktop\\FullStack\\backend\\backend.csproj": {}
+    "C:\\Users\\qhama\\Source\\Repos\\Full-Stack---Learning-Management-System\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\qhama\\Desktop\\FullStack\\backend\\backend.csproj": {
+    "C:\\Users\\qhama\\Source\\Repos\\Full-Stack---Learning-Management-System\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\qhama\\Desktop\\FullStack\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\qhama\\Source\\Repos\\Full-Stack---Learning-Management-System\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\qhama\\Desktop\\FullStack\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\qhama\\Source\\Repos\\Full-Stack---Learning-Management-System\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\qhama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\qhama\\Desktop\\FullStack\\backend\\obj\\",
+        "outputPath": "C:\\Users\\qhama\\Source\\Repos\\Full-Stack---Learning-Management-System\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
