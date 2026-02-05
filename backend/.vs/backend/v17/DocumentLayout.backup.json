@@ -1,7 +1,64 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\migrations\\20260205094439_newstudentregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:migrations\\20260205094439_newstudentregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\migrations\\20260205093751_addedstudentregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:migrations\\20260205093751_addedstudentregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\migrations\\20260205090744_rolesseeded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:migrations\\20260205090744_rolesseeded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\models\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:models\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\models\\entities\\authentication\\signup\\registerstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:models\\entities\\authentication\\signup\\registerstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\models\\entities\\authentication\\signup\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:models\\entities\\authentication\\signup\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\models\\entities\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:models\\entities\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\models\\entities\\moduletask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:models\\entities\\moduletask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\models\\entities\\authentication\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:models\\entities\\authentication\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\models\\entities\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:models\\entities\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|c:\\users\\qhama\\desktop\\full-stack---learning-management-system\\backend\\models\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA036C0-085D-4AB0-A6E9-4FDCB9EB2046}|backend.csproj|solutionrelative:models\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +66,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260205094439_NewStudentRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Migrations\\20260205094439_NewStudentRegistration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260205094439_NewStudentRegistration.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Migrations\\20260205094439_NewStudentRegistration.cs*",
+              "RelativeToolTip": "Migrations\\20260205094439_NewStudentRegistration.cs*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwDUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T09:44:39.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260205090744_RolesSeeded.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Migrations\\20260205090744_RolesSeeded.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260205090744_RolesSeeded.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Migrations\\20260205090744_RolesSeeded.cs",
+              "RelativeToolTip": "Migrations\\20260205090744_RolesSeeded.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T09:39:10.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260205093751_AddedStudentRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Migrations\\20260205093751_AddedStudentRegistration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260205093751_AddedStudentRegistration.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Migrations\\20260205093751_AddedStudentRegistration.cs",
+              "RelativeToolTip": "Migrations\\20260205093751_AddedStudentRegistration.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T09:37:51.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Authentication\\Response.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Authentication\\Response.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Authentication\\Response.cs",
+              "RelativeToolTip": "Models\\Entities\\Authentication\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T09:00:45.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterStudent.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Authentication\\SignUp\\RegisterStudent.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Authentication\\SignUp\\RegisterStudent.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Authentication\\SignUp\\RegisterStudent.cs",
+              "RelativeToolTip": "Models\\Entities\\Authentication\\SignUp\\RegisterStudent.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T14:43:06.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginUser.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Authentication\\SignUp\\LoginUser.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Authentication\\SignUp\\LoginUser.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Authentication\\SignUp\\LoginUser.cs",
+              "RelativeToolTip": "Models\\Entities\\Authentication\\SignUp\\LoginUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T14:40:47.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T12:51:14.796Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -22,6 +170,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEEAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T11:06:54.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ModuleTask.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\ModuleTask.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\ModuleTask.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\ModuleTask.cs",
+              "RelativeToolTip": "Models\\Entities\\ModuleTask.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T11:06:07.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Module.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Module.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Module.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Module.cs",
+              "RelativeToolTip": "Models\\Entities\\Module.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T11:05:46.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Course.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Course.cs",
+              "RelativeToolTip": "Models\\Entities\\Course.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T11:05:36.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Student.cs",
+              "RelativeToolTip": "Models\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T11:05:28.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Lecturer.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Lecturer.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Lecturer.cs",
+              "RelativeToolTip": "Models\\Entities\\Lecturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T11:05:19.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\qhama\\Desktop\\Full-Stack---Learning-Management-System\\backend\\Models\\Entities\\Admin.cs",
+              "RelativeToolTip": "Models\\Entities\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T11:05:04.861Z",
+              "EditorCaption": ""
             }
           ]
         }
