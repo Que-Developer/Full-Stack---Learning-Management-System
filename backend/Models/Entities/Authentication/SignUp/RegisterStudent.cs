@@ -12,8 +12,8 @@ namespace backend.Models.Entities.Authentication.SignUp
         public required string HomeAddress { get; set; }
         public required string EmailAddress { get; set; }
         public string? PhoneNumber { get; set; }
+        public bool isProcessed { get; set; } = false;
         
-
         // Foreign Key for Course
         public int CourseID { get; set; }
         
