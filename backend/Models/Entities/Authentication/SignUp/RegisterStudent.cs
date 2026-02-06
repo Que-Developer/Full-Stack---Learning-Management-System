@@ -15,9 +15,9 @@ namespace backend.Models.Entities.Authentication.SignUp
         public bool isProcessed { get; set; } = false;
         
         // Foreign Key for Course
-        public int CourseID { get; set; }
+        public int? CourseID { get; set; }
         
         // Navigation property
-        public Course Course { get; set; }
+        public Course? Course { get; set; }
     }
 }

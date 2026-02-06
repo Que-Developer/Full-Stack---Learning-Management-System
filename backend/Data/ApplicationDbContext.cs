@@ -63,8 +63,7 @@ namespace backend.Data
             builder.Entity<RegisterStudent>(entity =>
             {
                 entity.HasKey(rs => rs.StudentID);
-                entity.HasOne(rs => rs.Course).WithMany(c => c.RegisterStudents).HasForeignKey(rs => rs.CourseID);
-                entity.Property(rs => rs.isProcessed);
+                entity.HasOne(rs => rs.Course).WithMany(c => c.RegisterStudents).HasForeignKey(rs => rs.CourseID).IsRequired(false);
             });
 
             SeedRoles(builder);
