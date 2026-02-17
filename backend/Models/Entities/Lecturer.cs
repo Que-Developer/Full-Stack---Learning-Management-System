@@ -2,14 +2,14 @@
 {
     public class Lecturer
     {
-        public Guid LecturerID { get; set; }
+        public int LecturerID { get; set; }
         public required string Name { get; set; }
         public required string Surname { get; set; }
         public required string Email { get; set; }
-        public required string PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
 
         // Foreign Key
-        public Guid? AdminID { get; set; }
+        public int? AdminID { get; set; }
         public int? CourseID { get; set; }
 
         // Navigation property back to Admin
