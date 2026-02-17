@@ -12,7 +12,7 @@ using backend.Data;
 namespace backend.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260206194251_newResetMigration")]
+    [Migration("20260210094844_newResetMigration")]
     partial class newResetMigration
     {
         /// <inheritdoc />
@@ -54,21 +54,21 @@ namespace backend.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "39c9c584-877b-439b-b27e-5ce24ccae66d",
+                            Id = "3df2d178-fa9c-4f6e-a339-fe268eddddd6",
                             ConcurrencyStamp = "1",
                             Name = "Admin",
                             NormalizedName = "Admin"
                         },
                         new
                         {
-                            Id = "279e1c45-8eb7-4963-9399-ec8de21fab02",
+                            Id = "3f7b2ec6-4362-4f70-8e15-37e80f8d1ebc",
                             ConcurrencyStamp = "2",
                             Name = "Lecturer",
                             NormalizedName = "Lecturer"
                         },
                         new
                         {
-                            Id = "4eaba056-5bbd-4914-8d06-19411f2d4a32",
+                            Id = "378ed2fe-c62c-4b96-88ee-5db5b1b96638",
                             ConcurrencyStamp = "3",
                             Name = "Student",
                             NormalizedName = "Student"
@@ -278,15 +278,21 @@ namespace backend.Migrations
 
             modelBuilder.Entity("backend.Models.Entities.Admin", b =>
                 {
-                    b.Property<Guid>("AdminID")
+                    b.Property<int>("AdminID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AdminID"));
 
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Surname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -303,12 +309,15 @@ namespace backend.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentID"));
 
+                    b.Property<string>("ConfirmPassword")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("CourseID")
                         .HasColumnType("int");
 
-                    b.Property<string>("DateOfBirth")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("EmailAddress")
                         .IsRequired()
@@ -322,19 +331,27 @@ namespace backend.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsProcessed")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Surname")
+                    b.Property<string>("Result")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("isProcessed")
-                        .HasColumnType("bit");
+                    b.Property<string>("Surname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("StudentID");
 
@@ -351,8 +368,8 @@ namespace backend.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CourseID"));
 
-                    b.Property<Guid?>("AdminID")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int?>("AdminID")
+                        .HasColumnType("int");
 
                     b.Property<string>("CourseName")
                         .IsRequired()
@@ -374,12 +391,14 @@ namespace backend.Migrations
 
             modelBuilder.Entity("backend.Models.Entities.Lecturer", b =>
                 {
-                    b.Property<Guid>("LecturerID")
+                    b.Property<int>("LecturerID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
 
-                    b.Property<Guid?>("AdminID")
-                        .HasColumnType("uniqueidentifier");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LecturerID"));
+
+                    b.Property<int?>("AdminID")
+                        .HasColumnType("int");
 
                     b.Property<int?>("CourseID")
                         .HasColumnType("int");
@@ -393,7 +412,6 @@ namespace backend.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Surname")
@@ -417,8 +435,8 @@ namespace backend.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ModuleID"));
 
-                    b.Property<Guid?>("AdminID")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int?>("AdminID")
+                        .HasColumnType("int");
 
                     b.Property<int?>("CourseID")
                         .HasColumnType("int");
@@ -427,8 +445,8 @@ namespace backend.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("LecturerID")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int?>("LecturerID")
+                        .HasColumnType("int");
 
                     b.Property<string>("ModuleCode")
                         .IsRequired()
@@ -477,15 +495,14 @@ namespace backend.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentID"));
 
-                    b.Property<Guid?>("AdminID")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int?>("AdminID")
+                        .HasColumnType("int");
 
                     b.Property<int?>("CourseID")
                         .HasColumnType("int");
 
-                    b.Property<string>("DateOfBirth")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("EmailAddress")
                         .IsRequired()

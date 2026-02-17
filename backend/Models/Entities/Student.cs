@@ -6,14 +6,14 @@
         public required string Name { get; set; }
         public required string Surname { get; set; }
         public required string Gender { get; set; }
-        public required string DateOfBirth { get; set; }
+        public required DateTime DateOfBirth { get; set; }
         public required string HomeAddress { get; set; }
         public required string EmailAddress { get; set; }
         public string? PhoneNumber { get; set; }
         public DateTime EnrollmentDate { get; set; } = DateTime.UtcNow;
 
         // Foreign Key
-        public Guid? AdminID { get; set; }
+        public int? AdminID { get; set; }
         public int? CourseID { get; set; }
 
         //Navigation property back to Admin

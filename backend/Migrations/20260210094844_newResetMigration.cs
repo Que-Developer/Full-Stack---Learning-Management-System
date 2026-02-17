@@ -17,8 +17,10 @@ namespace backend.Migrations
                 name: "Admins",
                 columns: table => new
                 {
-                    AdminID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    AdminID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Surname = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
@@ -74,7 +76,7 @@ namespace backend.Migrations
                     CourseName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Faculty = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    AdminID = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
+                    AdminID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -197,12 +199,13 @@ namespace backend.Migrations
                 name: "Lecturers",
                 columns: table => new
                 {
-                    LecturerID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    LecturerID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Surname = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AdminID = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    AdminID = table.Column<int>(type: "int", nullable: true),
                     CourseID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -230,11 +233,14 @@ namespace backend.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Surname = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Gender = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DateOfBirth = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
                     HomeAddress = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     EmailAddress = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    isProcessed = table.Column<bool>(type: "bit", nullable: false),
+                    IsProcessed = table.Column<bool>(type: "bit", nullable: false),
+                    Result = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ConfirmPassword = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CourseID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -256,12 +262,12 @@ namespace backend.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Surname = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Gender = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DateOfBirth = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
                     HomeAddress = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     EmailAddress = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     EnrollmentDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    AdminID = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    AdminID = table.Column<int>(type: "int", nullable: true),
                     CourseID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -289,8 +295,8 @@ namespace backend.Migrations
                     ModuleName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ModuleCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Credits = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AdminID = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
-                    LecturerID = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    AdminID = table.Column<int>(type: "int", nullable: true),
+                    LecturerID = table.Column<int>(type: "int", nullable: true),
                     CourseID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -386,9 +392,9 @@ namespace backend.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "279e1c45-8eb7-4963-9399-ec8de21fab02", "2", "Lecturer", "Lecturer" },
-                    { "39c9c584-877b-439b-b27e-5ce24ccae66d", "1", "Admin", "Admin" },
-                    { "4eaba056-5bbd-4914-8d06-19411f2d4a32", "3", "Student", "Student" }
+                    { "378ed2fe-c62c-4b96-88ee-5db5b1b96638", "3", "Student", "Student" },
+                    { "3df2d178-fa9c-4f6e-a339-fe268eddddd6", "1", "Admin", "Admin" },
+                    { "3f7b2ec6-4362-4f70-8e15-37e80f8d1ebc", "2", "Lecturer", "Lecturer" }
                 });
 
             migrationBuilder.CreateIndex(

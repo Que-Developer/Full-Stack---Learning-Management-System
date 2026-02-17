@@ -1,11 +1,9 @@
-﻿using System.Globalization;
-using Microsoft.Identity.Client;
+﻿using backend.Models.Entities;
 
-namespace backend.Models.Entities.Authentication.SignUp
+namespace backend.Models
 {
-    public class RegisterStudent
+    public class RegisterStudentDto
     {
-        public int StudentID { get; set; }
         public required string Name { get; set; }
         public required string Surname { get; set; }
         public required string Gender { get; set; }
@@ -17,11 +15,8 @@ namespace backend.Models.Entities.Authentication.SignUp
         public required string Result { get; set; } = "Pending";
         public required string Password { get; set; }
         public required string ConfirmPassword { get; set; }
-        
+
         // Foreign Key for Course
         public int? CourseID { get; set; }
-        
-        // Navigation property
-        public Course? Course { get; set; }
     }
 }

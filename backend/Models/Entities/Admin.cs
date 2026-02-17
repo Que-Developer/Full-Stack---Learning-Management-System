@@ -2,8 +2,9 @@
 {
     public class Admin
     {
-        public Guid AdminID { get; set; }
+        public int AdminID { get; set; }
         public required string Name { get; set; }
+        public required string Surname { get; set; }
         public required string Email { get; set; }
 
         // Navigation Properties (The "Many" side)

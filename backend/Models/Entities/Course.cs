@@ -10,7 +10,7 @@ namespace backend.Models.Entities
         public string? Description { get; set; }
 
         // Foreign Key
-        public Guid? AdminID { get; set; }
+        public int? AdminID { get; set; }
 
         //Navigation property
         public Admin? Admin { get; set; }

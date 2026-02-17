@@ -8,8 +8,8 @@
         public required string Credits { get; set; }
 
         // Foreign Key for Admin and Lecturer
-        public Guid? AdminID { get; set; }
-        public Guid? LecturerID { get; set; }
+        public int? AdminID { get; set; }
+        public int? LecturerID { get; set; }
         public int? CourseID { get; set; }
 
         // Navigation property back to Lecturer
